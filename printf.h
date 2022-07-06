@@ -7,5 +7,5 @@ typedef struct print
 } print_t;
 
 int _printf(const char *format, ...);
-int (*get_print(const char *id, char *str);
+int *get_print(const char *id, char *str);
 #endif
