@@ -8,5 +8,4 @@ typedef struct print
 
 int _printf(const char *format, ...);
 int (*get_print(const char *id, char *str);
-
 #endif
