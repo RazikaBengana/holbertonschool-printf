@@ -1,5 +1,10 @@
-#IFNDEF printf_h
-#DEFINE printf_h
+#ifndef printf_h
+#define printf_h
+typedef struct print
+{
+	char *conv;
+	int (*f)(char *str);
+} print_t;
 
 int _printf(const char *format, ...);
 
