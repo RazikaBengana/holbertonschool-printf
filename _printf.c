@@ -10,30 +10,31 @@ int _printf(const char *format, ...)
 {
 	int i = 0;
 	int s;
-	int char_count = 0;
+	int char_total = 0;
 	va_list args_printf;
 
 	va_start(args_printf, format);
-
 
 	while (format && format[i])
 	{
 		if (format[i] == '%')
 		{
-			s = 1;
-
 			s = get_print(format[i + 1])(args_printf);
 
 			if (!s)
-				s = 1;
+			{
+				_putchar(format[i]);
+				_putchar(format[i + 1]);
+				s = 2;
+			}
 
-			char_count += s;
+			char_total += s;
 			i += 2;
 		}
 		else
 		{
 			_putchar(format[i]);
-			char_count++;
+			char_total++;
 			i++;
 
 		}
@@ -41,5 +42,5 @@ int _printf(const char *format, ...)
 
 	va_end(args_printf);
 
-	return (char_count);
+	return (char_total);
 }

@@ -2,7 +2,17 @@
 
 int print_s(va_list args_printf)
 {
-	_putchar('k');
+	char *str = va_arg(args_printf, char *);
+	int length = 0;
+	int i;
 
-	return (0);
+	while (str[length])
+	{
+		length++;
+	}
+
+	for (i = 0; i < length; i++)
+		_putchar(str[i]);
+
+	return (length);
 }
