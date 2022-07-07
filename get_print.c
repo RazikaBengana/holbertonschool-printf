@@ -9,13 +9,13 @@
  *	NULL otherwise
  */
 
-int (*get_print(const char *id))(va_list)
+int (*get_print(const char id))(va_list)
 {
 	print_t ids[] = {
-		{"c", print_c},
-		{"s", print_s},
-		{NULL, NULL}
-	}
+		{'c', print_c},
+		{'s', print_s},
+		{'\0', NULL}
+	};
 
 	int i;
 
@@ -30,3 +30,4 @@ int (*get_print(const char *id))(va_list)
 	}
 
 	return (NULL);
+}
