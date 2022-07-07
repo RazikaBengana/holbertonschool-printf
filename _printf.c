@@ -1,4 +1,4 @@
-#include "printf.h"
+#include "main.h"
 #include <stdarg>
 #include <stddef.h>
 
@@ -7,19 +7,31 @@
  * @format: the string to format
  * Return : 0
  */
-_printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	int i = 0;
+	int char_count = 0;
+	va_list args_printf;
+
+	va_start(args_printf, format);
 
 	while (format && format[i])
 	{
+		int s = -1;
+
 		if (format[i] == '%')
-		    get_print(format[i + 1]);
+			s = (*get_print(format[i + 1])(args_printf));
 
-		if (get_print(format[i + 1] == 0))
-			    i += 2;
+		if (s == 0)
+		{
+			char_count += s;
+			i += 2;
+		}
 
-		    _putchar(format[i]);
-		    i++;
+		_putchar(format[i]);
+		char_count++;
+		i++;
 	}
+
+	va_end(args_printf);
 }

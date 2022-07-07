@@ -1,13 +1,15 @@
-#include "printf.h"
+#include "main.h"
 
 /**
  * get_print - Selects the right print
  * @id: The conversion specifier
- * @str: The string corresponding to id
  *
- * Return: The number of printed characters, NULL otherwise
+ * Return:
+ *	A pointer to the right print to use according to char
+ *	NULL otherwise
  */
-int get_print(const char *id, char *str)
+
+int (*get_print(const char *id))(va_list)
 {
 	print_t ids[] = {
 		{"c", print_c},
@@ -22,7 +24,7 @@ int get_print(const char *id, char *str)
 	while (ids[i].c)
 	{
 		if (ids[i].c == id)
-			return (ids[i].f(str));
+			return (ids[i].f);
 
 		i++;
 	}
