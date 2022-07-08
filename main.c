@@ -8,23 +8,6 @@
  */
 int main(void)
 {
-	char *testing = "TEST";
-	int testagain = 654;
-
-	int s = _printf("test1: %s, test2: %ss, test3: %dok", testing, testing, testagain);
-
-	printf("\n------- Nombre de caractères : ------------\n");
-	printf("%d\n", s);
-
-	_printf("test_n'existe pas: %r\nmême à la fin%");
-
-	int k = _printf("Hello, I'm %s", "Jose\n");
-	printf("\n------ Nombre de caractères : ---------- \n");
-	printf("%d\n", k);
-	char premierelettre = 'a';
-	int ctotal = _printf("La première lettre de mon prénom : %c\n",premierelettre);
-	printf("\n------ Nombre de caractères : ---------\n");
-	printf("%d\n", ctotal);
-
+	_printf("%");
 	return (0);
 }

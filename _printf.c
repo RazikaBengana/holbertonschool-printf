@@ -10,7 +10,7 @@
 int _printf(const char *format, ...)
 {
 	int i = 0;
-	int printed;
+	int printed = 0;
 	int is_identifier;
 	int char_total = 0;
 	va_list args;
@@ -25,9 +25,12 @@ int _printf(const char *format, ...)
 
 			if (is_identifier == 1)
 			{
-				_putchar(format[i]);
-				_putchar(format[i + 1]);
-				printed = 2;
+				if (format[i + 1])
+				{
+					_putchar(format[i]);
+					_putchar(format[i + 1]);
+					printed = 2;
+				}
 			}
 			else
 			{
