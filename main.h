@@ -14,8 +14,11 @@ typedef struct print
 } print_t;
 
 int _putchar(char c);
+int print_int(int n);
 int _printf(const char *format, ...);
-int (*get_print(const char id))(va_list);
+int check_identifier(char c);
+int (*get_print(char id))(va_list);
 int print_c(va_list);
 int print_s(va_list);
+int print_d(va_list);
 #endif

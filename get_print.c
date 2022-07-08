@@ -1,33 +1,27 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * get_print - Selects the right print
  * @id: The conversion specifier
  *
- * Return:
- *	A pointer to the right print to use according to char
- *	NULL otherwise
+ * Return: A pointer to the right print to use according to char
  */
 
-int (*get_print(const char id))(va_list)
+int (*get_print(char id))(va_list)
 {
 	print_t ids[] = {
 		{'c', print_c},
 		{'s', print_s},
-		{'\0', NULL}
+		{'d', print_d},
 	};
 
 	int i;
 
 	i = 0;
 
-	while (ids[i].c)
-	{
-		if (ids[i].c == id)
-			return (ids[i].f);
-
+	while (ids[i].c != id)
 		i++;
-	}
 
-	return (NULL);
+	return (ids[i].f);
 }
