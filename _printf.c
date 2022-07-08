@@ -42,7 +42,6 @@ int _printf(const char *format, ...)
 			char_total++;
 			i++;
 		}
-		break;
 	}
 	va_end(args);
 
