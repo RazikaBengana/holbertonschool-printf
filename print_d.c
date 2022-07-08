@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_d - Prints the first argument of a list, an integer
+ * print_d - Prints the current integer of a va_list
  * @args: The list of arguments received
  *
  * Return: The number of digits of the integer ("-" included)

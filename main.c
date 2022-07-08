@@ -9,10 +9,9 @@
  */
 int main(void)
 {
-	int len, len2;
+	int n = 4205;
 
-	len = _printf("%");
-	len2 = printf("%");
-
-	printf("len: %d, len2: %d", len, len2);
+	int k = _printf("%d", n);
+	printf("\ndigits: %d\n", k);
+	return (0);
 }
