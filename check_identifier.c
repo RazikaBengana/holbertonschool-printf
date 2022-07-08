@@ -4,7 +4,7 @@
  * check_identifier - Checks if the provided identifier char is accepted
  * @c: The identifier to validate
  *
- * Return: 0 if valid identifier, 1 otherwise
+ * Return: 1 if valid identifier, 0 otherwise
  */
 int check_identifier(char c)
 {
@@ -12,6 +12,7 @@ int check_identifier(char c)
 		'c',
 		's',
 		'd',
+		'%'
 	};
 
 	int i = 0;
@@ -19,10 +20,10 @@ int check_identifier(char c)
 	while (ids[i])
 	{
 		if (ids[i] == c)
-			return (0);
+			return (1);
 
 		i++;
 	}
 
-	return (1);
+	return (0);
 }

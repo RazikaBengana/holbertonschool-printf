@@ -21,4 +21,5 @@ int (*get_print(char id))(va_list);
 int print_c(va_list);
 int print_s(va_list);
 int print_d(va_list);
+int print_percent(va_list);
 #endif

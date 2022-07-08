@@ -22,21 +22,17 @@ int _printf(const char *format, ...)
 		{
 			is_identifier = check_identifier(format[i + 1]);
 
-			if (is_identifier == 1)
+			if (!is_identifier)
 			{
 				_putchar(format[i]);
-				printed = 1;
-
-				if (format[i + 1] != '%')
-				{
-					_putchar(format[i + 1]);
-					printed = 2;
-				}
+				_putchar(format[i + 1]);
+				printed = 2;
 			}
 			else
 			{
 				printed = get_print(format[i + 1])(args);
 			}
+
 			char_total += printed;
 			i += 2;
 		}

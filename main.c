@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Prints a string
@@ -8,6 +9,13 @@
  */
 int main(void)
 {
-	_printf("Complete the sentence: You %s nothing, Jon Snow.\n", (char *)0);
+	int len;
+	int len2;
+
+	len = _printf("Percent:[%%]\n");
+	len2 = printf("Percent:[%%]\n");
+	_printf("Len:[%d]\n", len);
+	printf("Len:[%d]\n", len2);
 	return (0);
+
 }
