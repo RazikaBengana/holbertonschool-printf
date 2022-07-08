@@ -10,6 +10,10 @@
 int print_s(va_list args)
 {
 	char *str = va_arg(args, char *);
+
+	if (str == NULL)
+		str = "(null)";
+
 	int length = 0;
 	int i;
 

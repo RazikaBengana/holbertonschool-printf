@@ -8,9 +8,6 @@
  */
 int main(void)
 {
-	int a = _printf("%%\n");
-	int b = printf("%%\n");
-
-	printf("a: %d et b: %d\n", a, b);
+	_printf("Complete the sentence: You %s nothing, Jon Snow.\n", (char *)0);
 	return (0);
 }
