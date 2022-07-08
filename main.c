@@ -9,9 +9,6 @@
  */
 int main(void)
 {
-	int n = 4205;
-
-	int k = _printf("%d", n);
-	printf("\ndigits: %d\n", k);
+	_printf("%i", 1024);
 	return (0);
 }

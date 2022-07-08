@@ -13,6 +13,7 @@ int (*get_print(char id))(va_list)
 		{'c', print_c},
 		{'s', print_s},
 		{'d', print_d},
+		{'i', print_d},
 		{'%', print_percent}
 	};
 

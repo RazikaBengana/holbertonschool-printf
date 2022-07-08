@@ -12,6 +12,7 @@ int check_identifier(char c)
 		'c',
 		's',
 		'd',
+		'i',
 		'%'
 	};
 
