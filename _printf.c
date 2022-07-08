@@ -16,18 +16,19 @@ int _printf(const char *format, ...)
 	va_list args;
 
 	va_start(args, format);
-
 	while (format && format[i])
 	{
-		if (format[i] == '%' && format[i + 1] != '%')
+		if (format[i] == '%' && format[i + 1])
 		{
 			is_identifier = check_identifier(format[i + 1]);
 
 			if (is_identifier == 1)
 			{
-				if (format[i + 1])
+				_putchar(format[i]);
+				printed = 1;
+
+				if (format[i + 1] != '%')
 				{
-					_putchar(format[i]);
 					_putchar(format[i + 1]);
 					printed = 2;
 				}
@@ -36,7 +37,6 @@ int _printf(const char *format, ...)
 			{
 				printed = get_print(format[i + 1])(args);
 			}
-
 			char_total += printed;
 			i += 2;
 		}

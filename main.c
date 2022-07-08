@@ -8,6 +8,9 @@
  */
 int main(void)
 {
-	_printf("%%");
+	int a = _printf("%%\n");
+	int b = printf("%%\n");
+
+	printf("a: %d et b: %d\n", a, b);
 	return (0);
 }
