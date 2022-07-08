@@ -11,7 +11,7 @@ int check_identifier(char c)
 	char ids[] = {
 		'c',
 		's',
-		'd'
+		'd',
 	};
 
 	int i = 0;

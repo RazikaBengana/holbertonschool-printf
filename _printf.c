@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 
 	while (format && format[i])
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && format[i + 1] != '%')
 		{
 			is_identifier = check_identifier(format[i + 1]);
 
@@ -47,7 +47,6 @@ int _printf(const char *format, ...)
 			i++;
 		}
 	}
-
 	va_end(args);
 	return (char_total);
 }
