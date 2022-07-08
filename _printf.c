@@ -36,13 +36,17 @@ int _printf(const char *format, ...)
 			char_total += printed;
 			i += 2;
 		}
-		else
+		else if (format[i] != '%')
 		{
 			_putchar(format[i]);
 			char_total++;
 			i++;
 		}
+		break;
 	}
 	va_end(args);
+
+	if (char_total == 0)
+		return (-1);
 	return (char_total);
 }
