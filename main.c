@@ -21,6 +21,10 @@ int main(void)
 	int k = _printf("Hello, I'm %s", "Jose\n");
 	printf("\n------ Nombre de caractères : ---------- \n");
 	printf("%d\n", k);
+	char premierelettre = 'a';
+	int ctotal = _printf("La première lettre de mon prénom : %c\n",premierelettre);
+	printf("\n------ Nombre de caractères : ---------\n");
+	printf("%d\n", ctotal);
 
 	return (0);
 }
