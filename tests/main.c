@@ -18,6 +18,7 @@ int main(void)
 	unsigned short huinf = -564, hu = 654;
 	unsigned long luinf = -564, lu = 654;
 	void *addr;
+	char *here = "world";
 
 	len = _printf("Let's try to printf a simple sentence.\n");
 	len2 = printf("Let's try to printf a simple sentence.\n");
