@@ -21,7 +21,6 @@ int _printf(const char *format, ...)
 		if (format[i] == '%' && format[i + 1])
 		{
 			is_identifier = check_identifier(format[i + 1]);
-
 			if (!is_identifier)
 			{
 				_putchar(format[i]);
@@ -32,7 +31,6 @@ int _printf(const char *format, ...)
 			{
 				printed = get_print(format[i + 1])(args);
 			}
-
 			char_total += printed;
 			i += 2;
 		}
@@ -42,9 +40,12 @@ int _printf(const char *format, ...)
 			char_total++;
 			i++;
 		}
+		else
+		{
+			break;
+		}
 	}
 	va_end(args);
-
 	if (char_total == 0)
 		return (-1);
 	return (char_total);
