@@ -1,6 +1,7 @@
 # _printf - A recreation of the eponymous C standard library function
 
 *Prototype*
+
 **int _printf(const char *format, ...)**
 
 _printf produces output according to the *format* string that specifies how subsequent arguments are converted for output.
@@ -78,6 +79,7 @@ And run it
 
 ### Authors
 Moustapha "[MoustaphaElPsyCongroo](https://github.com/MoustaphaElPsyCongroo)" Tall (*[Linkedin](https://www.linkedin.com/in/moustapha-tall-b26960183/)*)
+
 Razika "[Razika-Bengana](https://github.com/Razika-Bengana)" Bengana (*[Linkedin](https://www.linkedin.com/in/razika-bengana-065284243/)*)
 
 *Thanks to the Linux man-pages project for their description of the regular printf function*
