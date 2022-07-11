@@ -24,23 +24,7 @@ It writes output to stdout, the standard output stream.
 
 %d or %i : Signed decimal integer
 
-%e : Floating point number in exponential format in e notation
-
-%E : Floating point number in exponential format in E notation
-
-%f : Double number in decimal format
-
-%g or %G : Double number in decimal format or exponential format depending on the value
-
-%o : Unsigned octal integer
-
-%p : Pointer to hexadecimal form
-
 %s : String (sequence) of characters
-
-%u : Unsigned decimal integer
-
-%x or %X : Unsigned hexadecimal number
 
 .SS FLAGS
 
