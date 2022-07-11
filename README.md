@@ -2,7 +2,7 @@
 
 *Prototype*
 
-**int _printf(const char *format, ...)**
+int _printf(const char *format, ...)
 
 _printf produces output according to the *format* string that specifies how subsequent arguments are converted for output.
 
