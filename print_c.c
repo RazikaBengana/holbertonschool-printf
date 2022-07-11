@@ -4,7 +4,7 @@
  * print_c - Prints the current argument of a va_list, a char
  * @args: List of arguments
  *
- * Return: 1
+ * Return: 1, the number of characters printed
  */
 
 int print_c(va_list args)

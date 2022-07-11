@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_s - Prints the first argument of a list, a string
- * @args: The variable list of arguments received
+ * print_s - Prints the current argument of a list, a string
+ * @args: The list of arguments received
  *
  * Return: The number of printed characters
  */
