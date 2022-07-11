@@ -4,7 +4,7 @@
  * get_print - Selects the right print
  * @id: The conversion specifier
  *
- * Return: A pointer to the right print to use according to char
+ * Return: A pointer to the right print to use according to id
  */
 
 int (*get_print(char id))(va_list)

@@ -4,6 +4,7 @@
 #include <stddef.h>
 
 /**
+ * struct print - A structure associating an identifier to a function
  * @c: The conversion identifier
  * @f: A pointer to the function associated to the identifier
  */
