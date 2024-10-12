@@ -24,7 +24,7 @@
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#eye-about">About</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#hammer_and_wrench-tasks">Tasks</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#computer-requirements">Requirements</a> •
-<a href="https://github.com/RazikaBengana/holbertonschool-printf#keyboard-more-info">More Info</a> •
+<a href="https://github.com/RazikaBengana/holbertonschool-printf#bulb-more-info">More Info</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#package-installation">Installation</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#keyboard-basic-usage">Basic usage</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#mag_right-resources">Resources</a> •
