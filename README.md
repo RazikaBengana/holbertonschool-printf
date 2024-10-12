@@ -85,7 +85,8 @@ Write your own `printf` function.
 
 **`5. Nothing in fine print is ever good news`**
 
-**`6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print`**
+**`6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies`** <br>
+**`   when they see them in print`**
 
 **`7. My weakness is wearing too much leopard print`**
 
@@ -99,7 +100,8 @@ Write your own `printf` function.
 
 **`12. It's depressing when you're still around and your albums are out of print`**
 
-**`13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection`**
+**`13. Every time that I wanted to give up, if I saw an interesting textile, print what ever,`** <br>
+**`    suddenly I would see a collection`**
 
 **`14. Print is the sharpest and the strongest weapon of our party`**
 
