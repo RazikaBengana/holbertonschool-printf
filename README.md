@@ -26,7 +26,7 @@
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#computer-requirements">Requirements</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#bulb-more-info">More Info</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#package-installation">Installation</a> •
-<a href="https://github.com/RazikaBengana/holbertonschool-printf#keyboard-basic-usage">Basic usage</a> •
+<a href="https://github.com/RazikaBengana/holbertonschool-printf#keyboard-basic-usage">Basic Usage</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#mag_right-resources">Resources</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#bust_in_silhouette-authors">Authors</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-printf#octocat-license">License</a>
@@ -215,7 +215,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 <br>
 
-```yaml
+```c
 alex@ubuntu:~/c/printf$ cat main.c 
 
 #include <limits.h>
@@ -408,7 +408,7 @@ Unsigned:[4294967295]
 <br>
 <br>
 
-## :keyboard: Basic usage
+## :keyboard: Basic Usage
 
 <br>
 
@@ -443,7 +443,7 @@ Unsigned:[4294967295]
 
 <br>
 
-```yaml
+```c
 char *here = "world";
 
 _printf("Hello %s!\n", here);
@@ -521,9 +521,9 @@ $ Hello world!
 
 <br>
 
-**${\color{blue}Mustapha \space Tall}$** ---> `Github` : [MoustaphaElPsyCongroo](https://github.com/MoustaphaElPsyCongroo)
+<img src="https://img.shields.io/badge/Mustapha%20Tall-darkblue" alt="Mustapha Tall" width="120"> ---> `Github` : [MoustaphaElPsyCongroo](https://github.com/MoustaphaElPsyCongroo)
 
-**${\color{blue}Razika \space Bengana}$**
+<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
 
 <br>
 <br>
