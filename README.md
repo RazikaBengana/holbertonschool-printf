@@ -473,9 +473,9 @@ $ Hello world!
 
 |Specifier| Meaning |
 |--|--|
-| c | A single character **char** |
-| s | A string **char \*** |
-| d or i | An **int** converted to decimal notation
+| `c` | A single character **char** |
+| `s` | A string **char \*** |
+| `d` or `i` | An **int** converted to decimal notation
 
 <br>
 <br>
@@ -521,9 +521,11 @@ $ Hello world!
 
 <br>
 
-<img src="https://img.shields.io/badge/Mustapha%20Tall-darkblue" alt="Mustapha Tall" width="120"> ---> `Github` : [MoustaphaElPsyCongroo](https://github.com/MoustaphaElPsyCongroo)
+- `Mustapha Tall` &nbsp; :point_right: `Github` : [MoustaphaElPsyCongroo](https://github.com/MoustaphaElPsyCongroo)
 
-<img src="https://img.shields.io/badge/Razika%20Bengana-darkblue" alt="Razika Bengana" width="120">
+<br>
+
+- `Razika Bengana`
 
 <br>
 <br>
